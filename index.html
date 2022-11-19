@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>FCC Challenges</title>
+  </head>
+  <body>
+    <header>
+      <h1>FreeCodeCamp Challenges</h1>
+    </header>
+    <main class="grid-wrapper">
+      <section class="roman-converter container">
+        <div class="roman card">
+          <h3>Roman Numeral Converter</h3>
+          <input
+            id="roman-input"
+            type="number"
+            min="0"
+            max="25000"
+            class="input"
+            placeholder="Enter a number"
+          />
+          <span id="roman-output">Output will go here</span>
+        </div>
+      </section>
+      <section class="caesar-cipher container">
+        <div class="ceasar card">
+          <h3>Caesars Cipher</h3>
+          <!-- TODO: TOOLTIP -->
+          <textarea
+            id="ceasar-input"
+            type="text"
+            class="input"
+            placeholder="Enter a word or phrase"
+          ></textarea>
+          <!-- <input
+            id="ceasar-input"
+            type="text"
+            class="input"
+            placeholder="Write a word or phrase"
+          /> -->
+          <span id="ceasar-output">Output will go here</span>
+        </div>
+      </section>
+      <section class="telephone-validator container">
+        <div class="telephone card">
+          <h3>US Telephone Validator</h3>
+          <!-- TODO: TOOLTIP -->
+          <input
+            id="telephone-input"
+            type="text"
+            class="input"
+            placeholder="Enter a telephone number"
+          />
+          <span id="telephone-output">Output will go here</span>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/ceasar-cipher.js"></script>
+    <script src="./scripts/roman-numeral-converter.js"></script>
+    <script src="./scripts/telephone-validator.js"></script>
+  </body>
+</html>
